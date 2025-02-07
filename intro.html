@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro section with drop down navigation</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img src="./images/logo.svg" alt="snap logo" />
+      </a>
+      <nav id="pages-nav">
+        <div class="drop-down">
+          <a href="#">
+            <span>Features</span>
+            <img
+              class="arrow-down"
+              src="./images/icon-arrow-down.svg"
+              alt="arrow down icon"
+            />
+            <img
+              class="arrow-up"
+              src="/images/icon-arrow-up.svg"
+              alt="arrow up icon"
+            />
+          </a>
+          <ul class="drop-down-list">
+            <li>
+              <a href="#">
+                <img src="./images/icon-todo.svg" alt="to do icon" />
+                <span>To do list</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-calendar.svg" alt="calendar icon" />
+                <span>Calendar</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-reminders.svg" alt="Reminder icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="drop-down">
+          <a href="#">
+            <span>Company</span>
+            <img src="./images/icon-arrow-down.svg" alt="arrow down icon" />
+            <img src="./images/icon-arrow-up.svg" alt="arrow up icon" />
+          </a>
+          <ul class="drop-down-list">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <a href="#">Careers</a>
+        <a href="#">About</a>
+      </nav>
+      <nav id="user-nav">
+        <a href="#">Log In</a>
+        <a href="#">Register</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-text">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="#">Learn more</a>
+          <ul>
+            <li>
+              <img src="./images/client-audiophile.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/client-databiz.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/client-maker.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/client-meet.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="section-image">
+          <img src="./images/image-hero-desktop.png" alt="hero image" />
+          <img src="./images/image-hero-mobile.png" alt="hero image" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
